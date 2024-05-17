@@ -1,0 +1,41 @@
+.div{
+   width: 35px;
+   height: 5px;
+   background-color: rgb(234, 234, 234);
+   margin: 6px 0;
+}
+.div-container{
+   margin: 13px;
+   width: 40px;
+   height: 30px;
+   color: transparent;
+   
+}
+.lotus{
+   color: rgb(234, 234, 234);
+   font-family: Nanum Myeongjo, sans-serif;
+}
+
+.main-navigation {
+   justify-content: space-around;
+   display: flex;
+   /* padding: 9px; */
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+   background-color: black;
+   color: rgb(234, 234, 234);
+   /* border-radius: ; */
+   width: 100%;
+} 
+
+@media ( min-width: 768px) {
+   .main-navigation-link{
+      align-items: right;
+   }
+   .menu-bar{
+      display: none;
+   }
+   .div-container{
+      display: none;
+   }
+}

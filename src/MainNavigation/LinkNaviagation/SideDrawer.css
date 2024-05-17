@@ -1,0 +1,40 @@
+.side-drawer{  
+  position: fixed;
+  left: vh;
+  top: 0;
+  z-index: 1;
+  border-radius: 5px;
+  height: 30vh;
+  width: 60%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.50);
+  background-color: white;
+  animation-duration: 10s;
+}
+@keyframes sidebar {
+  to {
+   background-color: #25007a;
+  }
+} 
+.side-link a:hover{
+  color: #977fcf;
+  transition: color 200ms ease-in-out 50ms;
+}
+.side-link li {
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin: 40px;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #977fcf;
+  transition: color 200ms ease-in-out 50ms;
+
+}
+.side-link a {
+  
+  list-style: none;
+  text-decoration: none;
+  color: #7a4de1;
+}
+@media (min-width: 768px) {
+  
+}

@@ -1,0 +1,304 @@
+.newrelease_container{
+  object-fit: cover;
+  /* border-radius: 5px; */
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-image: url('../../../public/silivan-munguarakarama-NrR9gn3lFKU-unsplash.jpg');
+}
+.new-release-body {
+background-image: url('../Music/background.jpg');
+
+ width: 100%;
+ height: 200%;
+} 
+.box1{
+ width: 45%;
+ height: 2px;
+ border-radius: 30px;
+ background-color: #e4e0ef;
+}
+.contain{
+  display: flex;
+  justify-content: space-around;
+ 
+  z-index: 2;
+  /* background-color: rgba(0,0,0,0.4); */
+}
+.box2{
+ width: 100%;
+ height: 2px;
+ background-color: white;
+
+}
+.lotus_img{
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  border-radius: 700px;
+  object-fit: cover;
+}
+
+
+.lotus_txt{
+   color: rgb(234, 234, 234);
+   font-size: 11px;
+   font-family: "Carattere", 'sans-serif';
+  
+}
+.lotus_txt2{
+  color:rgb(234, 234, 234) ;
+  font-size: 50px;
+  letter-spacing: 0px;
+  font-family:"Carattere",sans-serif
+}
+.button{
+  margin: 30px;
+  width: 200px;
+  height: 40px;
+  border-style: none;
+  border-radius: 30px;
+  color: #4c04f4;
+  font-size: 15px;
+  font-family: 'Nanum Myeongjo', sans-serif;
+}
+.button:hover{
+ background-color: #25007a;
+}
+.lst_rel_txt{
+  margin-left: 100px;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: 'Nanum Myeongjo', Arial, sans-serif;
+  color: rgb(234, 234, 234);
+}
+.circle1{
+  width: 60px;
+  height: 120px;
+  right: 360px;
+  background-color: #7a4de1;
+  position: absolute;
+  
+  border-radius: 500px;
+}
+.circle2{
+  width: 60px;
+  height: 120px;
+  right: 150px;
+  background-color: #7a4de1;
+  position: absolute;
+  bottom:140px;
+  border-radius: 500px;
+}
+
+
+.container {
+	height: max-content;
+	width: 400px;
+	border-radius: 30px;
+	background-color: #63Add0;
+	box-shadow: 2px 5px 5px #cccccc, -1px 7px 5px #cccccc;
+}
+
+.header{
+	display:flex;
+	justify-content: space-between;
+	padding: 20px 15px 5px 15px;
+}
+
+.header button{
+	cursor: pointer;
+}
+
+.icon{
+	background: transparent;
+	border: none;
+	font-size: 20px;
+	color: white;
+}
+
+.headerText{
+	color: white;
+	font-size: 20px;
+}
+
+.playerContaier{
+	width: 100%;
+	min-height: 200px;
+    color: white;
+	border-radius: 35px 35px 0 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 75px 0 30px 0;
+	margin-top: 70px;
+	
+ 
+}
+
+.avatar, .avatar1{
+position: absolute;
+  top: 300px;
+	width: 200px;
+	height:200px;
+	border-radius: 30px;
+}
+
+.name{
+	margin-top: 40px;
+	margin-bottom: 10px;
+	width:100%;
+	text-align:center;
+  color: rgb(234, 234, 234);
+  font-family: "Nanum Myeongjo", 'sans-serif';
+}
+
+.title{
+	margin-top: 0;
+	margin-bottom: 5px;
+	width:100%;
+	text-align:center;
+  color: rgb(234, 234, 234);
+  font-family: "Nanum Myeongjo", 'sans-serif';
+}
+
+.avatar1{
+
+  top: 300px;
+  width: 190px;
+  filter: blur(8px);
+}
+
+.controls{
+	width: 60%;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	margin: 0;
+}
+
+.controlButton{
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+	transition: box-shadow 0.4s;
+}
+
+.controlButton:hover{
+	box-shadow: 3px 3px 5px #cccccc, -3px 0px 5px #cccccc;
+}
+
+.centerButton{
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	border: 7px solid rgb(234, 234, 234);
+	color: rgb(234, 234, 234);
+	transition: box-shadow 0.5s;
+}
+
+.progress{
+  padding: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.progressCenter{
+	width: 20%;
+	height: 5px;
+	background-color: white;
+	border-radius: 5px;
+
+}
+
+.progressCenter:hover{
+	cursor: pointer;
+}
+
+.progressBar{
+	width: 0px;
+	height: 5px;
+	border-radius: 5px;
+	background-color: #4c04f4;
+ 
+}
+.currentTime_txt{
+ 
+  display: none;
+}
+
+.currentTime_txt2{
+ 
+  display: none;
+}
+.lastTime{
+  margin-right: 20px;
+}
+@media (max-width: 768px ) {
+  .newrelease_container{
+	padding: 20px;
+  }
+  .lotus_img{
+     width: 90%
+  }
+  .contain{
+    display: inline;
+  }
+  .flex1{
+    justify-content: center;
+  }
+  .lotus_txt{
+    text-align: center;
+  }
+  .lotus_txt2{
+    text-align: center;
+  }
+  .lotus_txt3{
+    text-align: center;
+  }
+  .button_div{
+    display: flex;
+  }
+  
+.avatar1{
+
+  top: 600px;
+  
+	width: 190px;
+	filter: blur(8px);
+}
+
+.avatar, .avatar1{
+    position: absolute;
+    top: 300px;
+    width: 200px;
+    height:200px;
+    border-radius: 30px;
+  }
+  .name{
+    padding-top: 90px;
+  }
+  .progressCenter{
+	justify-content: center;
+	text-align: center;
+	width: 50%;
+	margin-left: 20px;
+  }
+
+}

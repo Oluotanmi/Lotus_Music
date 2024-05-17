@@ -1,0 +1,118 @@
+/* .contain{
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../../public/silivan-munguarakarama-NrR9gn3lFKU-unsplash.jpg');
+   } */
+
+.profile{
+    background-color:  white;
+    padding: 10px;
+    border-radius: 5px;
+    color: #7c4bee;
+    font-family:  "Carattere", Helvetica, sans-serif;
+    letter-spacing: 1px;
+    width: 70px;
+    font-size: 24px;
+}
+.main_container{
+    padding: 20px;
+    margin-top: 20px;
+    /* background-color: #f7f5fc; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.profile_img{
+    width: 400px;
+    border-radius: 300px;
+   
+}
+.profile_txt{
+    font-size: 35px;
+    font-style: italic;
+    font-family: "Carattere", 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    color: #7c4bee;
+    text-align: center;
+    margin-right: 90px;
+}
+.icon_container{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #e7dffa;
+    justify-content: center;
+    width: 100%;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+.icon_txt{
+    font-size: 15px;
+    padding-top: 20px;
+}
+.div{
+    background: white;
+    width: 150px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.div:hover{
+    background-color: #e7dffa;
+    padding: 10px;
+    transition: padding 400ms ease-in-out 100ms;
+}
+.lotus_txt3{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: Afacad sans-serif;
+    line-height: 30px;
+
+  }
+@media (max-width: 769px){
+    .profile_img{
+    width: 90%;
+    }
+    .main_container{
+    display: inline;
+    justify-content: center;
+    background-color: none;
+   } 
+   .icon_container{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr ;
+    
+   }
+   .profile_txt{
+    justify-content: center;
+   }
+   .lotus_txt3{
+    justify-content: center;
+    margin-right: 90px;
+    font-family: Afacad sans-serif;
+   }
+   .icon{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+   
+   }
+   .div{
+    background: white;
+    width: 130px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 10px;
+    margin-left: 31px;
+   }
+   .icon_txt{
+    display: none;
+   }
+   
+}

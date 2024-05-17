@@ -1,0 +1,43 @@
+ .nav-links{
+   display: none;
+   margin-left: 900px;
+}
+.nav-links a {
+  border: 1px solid transparent;
+  text-decoration: none;
+  font-size: 19px;    
+}
+.Link-btn{
+  margin: 5px;
+  width: 100px;
+  height: 30px;
+  border-style: none;
+  border-radius: 30px;
+  color: #4c04f4;
+  font-size: 12px;
+  font-family: 'Nanum Myeongjo', sans-serif; 
+}
+.Link-btn:hover{
+  background-color: #25007a;
+ }
+
+@media (min-width: 768px) {
+.nav-links {
+  flex-direction: row;
+  display: block; 
+  display: flex;
+  list-style: none;   
+}  
+.nav-links li {
+  margin: 0 0.9rem;      
+}
+.nav-links a {
+ color: rgb(234, 234, 234);
+ text-decoration: none;
+ text-align: right;  
+ font-family: Nanum Myeongjo;             
+}
+.nav-links a:hover{
+ transition: color 100ms ease-in 50ms ;
+ }
+}   

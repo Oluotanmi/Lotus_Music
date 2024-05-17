@@ -1,0 +1,127 @@
+.contain{
+   padding: 10px;
+   object-fit: cover;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url('../../../public/silivan-munguarakarama-NrR9gn3lFKU-unsplash.jpg');
+  }
+
+.allsong{ 
+    margin-left: 30px;   
+    font-family:  Carattere, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(244, 239, 239);
+}
+
+.section{
+   padding: 20px;
+   display: flex;
+   flex-wrap: nowrap;
+   gap: 20px;
+   overflow: auto;
+   
+}
+
+.home{
+    color: white;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.card{
+    color: white;
+   /* box-shadow: rgba(225, 225, 235, 0.836) 0px 50px 100px -20px,rgba(109, 110, 110, 0.3) 0px 30px 60px -30px, rgba(172, 181, 190, 0.863) 0px -2px 6px 0px ; */
+    width: 270px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+    font-family:  Arial, Helvetica, sans-serif;
+    transition: background-color 400ms ease-in-out 100ms;
+    transition: padding 400ms ease-in-out 100ms;
+}
+
+.card:hover{
+    padding: 30px;
+    color: whitesmoke;
+   
+    
+}
+.text_hover{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+    align-items: center;
+    padding-bottom: 90px;
+}
+
+.card h1  {
+    color: black;
+}
+
+.card h3 {
+    color: black;
+}
+
+.img{
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.button{
+    font-family:  Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    color: #7a4de1;
+    background-color: grye;
+    width: 123px;
+    height: 40px;
+    
+    text-decoration: none;
+    border-style: none;
+    margin: 20px;
+}
+.button:hover{
+    background-color: #25007a;
+    color: #7a4de1;
+}
+.cardStats{
+    font-size: small;
+    font-family:  Arial, Helvetica, sans-serif;
+    
+}
+.textarea{
+    padding: 100px;
+    margin: 30px;
+}
+
+.submit:hover{
+    background-color: #7a4de1;
+    font-family: cursive;
+}
+.playercontain{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
+
+.centerButton{
+    position: relative;
+    bottom: 200px;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	border: 7px solid white;
+	color: white;
+	transition: box-shadow 0.5s;
+}

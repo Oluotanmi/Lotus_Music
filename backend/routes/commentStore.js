@@ -3,8 +3,6 @@ const User = require('../models/UserModel.js')
 const app = express()
 var router = express.Router();
 const bodyparser = require('body-parser');
-const { FilterDrama } = require('@mui/icons-material');
-
 
 app.use(express.json())
 

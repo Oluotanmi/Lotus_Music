@@ -1,6 +1,5 @@
 const express = require('express')
 const mongoose = require('mongoose');
-const { MongoClient, ServerApiVersion } = require('mongodb');
 const app = express();
 const cors = require('cors')
 const url ='mongodb+srv://oluwabukunmioluotanmi:KP4oT55YgsqfxaS7@cluster0.hnzsuk0.mongodb.net/?retryWrites=true&w=majority&appName=cluster0'

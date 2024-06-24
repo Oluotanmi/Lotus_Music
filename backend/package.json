@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
-    "server": "node server.js"
+    "build": "node server.js"
   },
   "keywords": [],
   "author": "oluotanmi",

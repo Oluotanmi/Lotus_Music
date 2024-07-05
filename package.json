@@ -3,11 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emotion/react": "^11.10.6",
-    "@emotion/styled": "^11.10.6",
-   
-   
-    
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -21,7 +16,6 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
     "react-jss": "^10.9.2",
-    "react-material-ui-carousel": "^2.3.11",
     "react-modular-audio-player": "^1.2.0",
     "react-moving-text": "^0.0.7",
     "react-router-dom": "^5.2.0",
